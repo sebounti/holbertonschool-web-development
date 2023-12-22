@@ -1,0 +1,501 @@
+
+body {
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 1200px) {
+  .section-uniforme {
+    width: 90%;
+  }
+}
+
+
+.logo {
+  width: 15%;
+  margin-left: 70px;
+  margin-top: 16px;
+  position: relative;
+  cursor: pointer;
+
+}
+
+.menu {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro';
+    text-decoration: none;
+    position: relative;
+    left: 720px;
+    padding: 30px;
+    bottom: 15px;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+.titles {
+  text-align: center;
+  color: white;
+  font-size: 120px;
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  padding-top: 80px; /* Ajustez cette valeur selon vos besoins */
+}
+
+.t1{
+  font-size: 16px;
+  font-family: 'Source Sans Pro';
+  text-align: center;
+  color: white;
+  position: relative;
+  display: inline;
+  left: 580px;
+  margin: 25px;
+  font-weight: 700;
+  bottom: 100px;
+
+}
+
+.register-button{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.50);
+    background: #C271FF;
+    border-radius: 22px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    cursor: pointer;
+    width: 162px;
+    height: 44px;
+    left: 340px;
+}
+
+
+
+.head2 span{
+  color: #C271FF;
+  font-size: 32px;
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.head2 {
+  color: white;
+  font-size: 32px;
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  position: relative;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.person-card {
+  display: flex;
+  justify-content: center;
+}
+
+.person {
+ text-align: center;
+  margin: 55px;
+}
+
+.person img {
+  display: block;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.name {
+  color: white;
+  font-size: 18px;
+  font-family: 'Source Sans Pro';
+  font-weight: 900;
+  line-height: 27px;
+}
+
+.bestsmile {
+  width: 150px;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+  margin-top: -15px;
+}
+
+.quote {
+  width: 100%;
+  position: relative;
+  height: 320px;
+  background: #C271FF;
+  margin-top: 25px;
+}
+
+.image {
+  left: 250px;
+  top: 80px;
+  position: absolute;
+
+}
+
+.text {
+  width: 730px;
+  height: 158px;
+  margin-left: 500px;
+  position: absolute;
+  top: 60px;
+}
+
+.ThoseTutorialsAr {
+  width: 730px;
+  color: white;
+  font-size: 22px;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  line-height: 33.60px;
+  word-wrap: break-word;
+}
+
+.PersonName {
+  color: white;
+  font-size: 22px;
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  line-height: 33.60px;
+  word-wrap: break-word;
+}
+
+.WeatherPresenter {
+  color: white;
+  font-size: 22px;
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33.60px;
+  word-wrap: break-word"
+}
+
+/* part 2*/
+
+.Part2Tutorials {
+  width: 1440px;
+  height: 450px;
+  position: relative;
+}
+
+.part2 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 70px;
+  font-size: 32px;
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+
+}
+
+.part2  span{
+  color: #C271FF;
+  font-size: 32px;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.back {
+  width: 255px;
+  height: 335px;
+  background: white;
+  box-shadow: 0px 2px 4px rgba(7, 22, 41, 0.18);
+  border-radius: 5px;
+  margin: 10px; /* Adds some space around your items. */
+}
+
+
+.back2 {
+  width: 255px;
+  height: 335px;
+  background: white;
+  box-shadow: 0px 2px 4px rgba(7, 22, 41, 0.18);
+  border-radius: 5px;
+  margin: 10px; /* Adds some space around your items. */
+}
+
+
+.back3 {
+  width: 255px;
+  height: 335px;
+  background: white;
+  box-shadow: 0px 2px 4px rgba(7, 22, 41, 0.18);
+  border-radius: 5px;
+  margin: 10px; /* Adds some space around your items. */
+}
+
+
+.back4 {
+  width: 255px;
+  height: 335px;
+  background: white;
+  box-shadow: 0px 2px 4px rgba(7, 22, 41, 0.18);
+  border-radius: 5px;
+  margin: 10px; /* Adds some space around your items. */
+}
+
+
+.PhillipMassey {
+  color: #C271FF;
+  font-size: 14px;
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  line-height: 28px;
+  word-wrap: break-word;
+  position: relative;
+  margin-top: -30px;
+  margin-left: 50px;
+}
+
+.avatar2 {
+  width: 30px;
+  height: 30px;
+  left: 5px;
+  position: relative;
+}
+
+
+.play {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 64px;
+  height: 64px;
+  left: 100px;
+  top: -110px;
+  position: relative;
+  opacity: 0.86;
+}
+
+.text3 {
+  width: 242px;
+  color: rgba(7, 22, 41, 0.50);
+  font-size: 14px;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  line-height: 15px;
+  word-wrap: break-word;
+  position: relative;
+  left: 10px;
+}
+
+.DiagonalSmile {
+  color: #071629;
+  font-size: 16px;
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  position: relative;
+  left: 10px;
+  word-wrap: break-word;
+}
+
+.Min {
+  position: relative;
+  left: 210px;
+  color: #C271FF;
+  font-size: 14px;
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  line-height: 10px;
+  margin-top: -15px;
+  word-wrap: break-word;
+}
+
+.rating {
+  left: 10px;
+  position: relative;
+}
+
+
+
+
+/*Part3FreeMembership*/
+
+.Part3FreeMembership {
+  width: 1440px;
+  height: 502px;
+  background: #071629;
+  left: -10px;
+  display: flex;
+}
+
+.member {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    word-wrap: break-word;
+    position: relative;
+    bottom: -110px;
+}
+
+.member span {
+  color: #C271FF;
+  font-size: 32px;
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+
+.details {
+  position: relative;
+  top: 150px;
+  right: -190px;
+}
+
+.text4 {
+  width: 221px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.head3 {
+  width: 256px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  line-height: 26px;
+   word-wrap: break-word;
+}
+
+.smile {
+  position: relative;
+  left: 100px;
+}
+
+.btn2 {
+  width: 162px;
+  height: 44px;
+  background: #C271FF;
+  border-radius: 22px;
+  position: relative;
+  top: -120px;
+  left: 45%;
+  color: white;
+  font-size: 14px;
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn2 {
+  width: 162px;
+  height: 44px;
+  background: #C271FF;
+  border-radius: 22px;
+  position: relative;
+  top: -160px;
+  left: 44%;
+  color: white;
+  font-size: 14px;
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.faq {
+  text-align: center;
+  color: #071629;
+  font-size: 60px;
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  word-wrap: break-word;
+}
+
+.FAQ {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.HowDoesThisWork {
+  color: #071629;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+   word-wrap: break-word;
+}
+
+.LoremIpsumDolorSi {
+  width: 350px;
+  color: rgba(7, 22, 41, 0.50);
+  font-size: 14px; font-family: 'Source Sans Pro';
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 70px;
+  height: 249px;
+  position: relative;
+  background: #071629;
+}
+
+.logos {
+  width: 169px;
+  height: 30px;
+  position: relative;
+  top: 110px;
+  left: 120px;
+}
+
+.share {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  left: 1200px;
+  top: 110px;
+  position: absolute;
+}
+
+.smileschool {
+  opacity: 0.35;
+  color: white;
+  font-size: 12px;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  word-wrap: break-word;
+  text-align: center;
+  position: relative;
+  top: 160px;
+}
